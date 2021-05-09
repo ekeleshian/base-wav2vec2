@@ -77,6 +77,6 @@ if __name__ == "__main__":
 		pickle.dump(timit_prepared, f)
 
 	with open('processor.pkl', 'wb') as f:
-		picke.dump(processor, f)
+		pickle.dump(processor, f)
 
 
